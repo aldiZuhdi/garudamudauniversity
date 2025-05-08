@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --desktopFontSize: 16px;
+  --desktopFontSizeH1: 32px;
+  --desktopFontSizeH2: 28px;
+  --desktopFontSizeH3: 24px;
+  --desktopFontSizeH4: 20px;
+  --desktopFontSizeH5: 18px;
+  --desktopFontSizeH6: 16px;
+
+  --tabletFontSize: 14px;
+  --tabletFontSizeH1: 28px;
+  --tabletFontSizeH2: 24px;
+  --tabletFontSizeH3: 20px;
+  --tabletFontSizeH4: 18px;
+  --tabletFontSizeH5: 16px;
+  --tabletFontSizeH6: 14px;
+
+  --mobileFontSize: 12px;
+  --mobileFontSizeH1: 24px;
+  --mobileFontSizeH2: 20px;
+  --mobileFontSizeH3: 18px;
+  --mobileFontSizeH4: 16px;
+  --mobileFontSizeH5: 14px;
+  --mobileFontSizeH6: 12px;
+
+  --gap-4: 4px;
+  --gap-8: 8px;
+  --gap-12: 12px;
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-24: 24px;
+  --gap-28: 28px;
+  --gap-32: 32px;
+
+  --headline: "Poppins", sans-serif;
+  --text: "Roboto", sans-serif;
+  --dummy: "Montserrat", sans-serif;
+
+  /* Startup, Minimalist */
+  --themeLightBackground: #f5f5f5;
+  --themeLightPrimary: #333;
+  --themeLightSecondary: #4f4f4f;
+  --themeLightAccent: #ff6b6b;
+  --themeLightText: #212121;
+  /* Technologies, Futuristic */
+  --themeDarkBackground: #121212;
+  --themeDarkPrimary: #1e1e1e;
+  --themeDarkSecondary: #bb86fc;
+  --themeDarkAccent: #03dac6;
+  --themeDarkText: #e0e0e0;
+  /* E-Commerce, Fashion */
+  --themePastelBackground: #fff0f5;
+  --themePastelPrimary: #ffb6c1;
+  --themePastelSecondary: #ffd700;
+  --themePastelAccent: #87ceeb;
+  --themePastelText: #333;
+  /* Bussiness, Corporate */
+  --themePastelBackground: #f8f9fa;
+  --themePastelPrimary: #007bff;
+  --themePastelSecondary: #6c757d;
+  --themePastelAccent: #28a745;
+  --themePastelText: #343a40;
+  /* Garuda Muda University */
+  --themeProjectPrimary: #d8b800;
+  --themeProjectPrimaryHighlight: #e8c815;
+  --themeProjectPrimaryLight: #d2bb38;
+  --themeProjectPrimaryShadow: #b99f0b;
+  --themeProjectPrimaryDar: #a38c09;
+  --themeProjectSecondary: #b22222;
+  --themeProjectAccent: #212121;
+  --themeProjectText: #1c1c1c;
+  --themeProjectBackground: #fff;
+}
+
+.sh-10 {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.sh-15 {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sh-20 {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+html,
+body,
+label,
+p,
+a {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  html,
+  body,
+  label,
+  a,
+  p {
+    font-size: var(--desktopFontSize);
+  }
+
+  h1 {
+    font-size: var(--desktopFontSizeH1);
+  }
+
+  h2 {
+    font-size: var(--desktopFontSizeH2);
+  }
+
+  h3 {
+    font-size: var(--desktopFontSizeH3);
+  }
+
+  h4 {
+    font-size: var(--desktopFontSizeH4);
+  }
+
+  h5 {
+    font-size: var(--desktopFontSizeH5);
+  }
+
+  h6 {
+    font-size: var(--desktopFontSizeH6);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  html,
+  body,
+  label,
+  a,
+  p {
+    font-size: var(--tabletFontSize);
+  }
+
+  h1 {
+    font-size: var(--tabletFontSizeH1);
+  }
+
+  h2 {
+    font-size: var(--tabletFontSizeH2);
+  }
+
+  h3 {
+    font-size: var(--tabletFontSizeH3);
+  }
+
+  h4 {
+    font-size: var(--tabletFontSizeH4);
+  }
+
+  h5 {
+    font-size: var(--tabletFontSizeH5);
+  }
+
+  h6 {
+    font-size: var(--taabletFontSizeH6);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body,
+  label,
+  a,
+  p {
+    font-size: var(--mobileFontSize);
+  }
+
+  h1 {
+    font-size: var(--mobileFontSizeH1);
+  }
+
+  h2 {
+    font-size: var(--mobileFontSizeH2);
+  }
+
+  h3 {
+    font-size: var(--mobileFontSizeH3);
+  }
+
+  h4 {
+    font-size: var(--mobileFontSizeH4);
+  }
+
+  h5 {
+    font-size: var(--mobileFontSizeH5);
+  }
+
+  h6 {
+    font-size: var(--mobileFontSizeH6);
+  }
+}
